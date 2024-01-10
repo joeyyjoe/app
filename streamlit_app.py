@@ -12,6 +12,8 @@ def main():
     #LOAD DATA
     df = pd.read_csv('data/AxS-Fraud Box_Full Data_data.csv')
 
+    year = 2022
+    
     st.write(df.shape)
     st.write(df.head())
     st.write(df.columns)
